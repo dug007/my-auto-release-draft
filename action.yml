@@ -1,10 +1,7 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+name: 'dug007'
+description: 'Drafts a GitHub release with the changes introduced by a tagged version'
+author: 'dug007'
+
 runs:
   using: 'node12'
   main: 'dist/index.js'
