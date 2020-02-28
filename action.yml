@@ -8,4 +8,4 @@ outputs:
 
 runs:
   using: 'node12'
-  main: '__tests__/main.test.ts'
+  main: 'dist/index.js'
