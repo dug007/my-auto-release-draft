@@ -1,7 +1,11 @@
-name: 'dug007'
+name: 'Auto Release Draft'
 description: 'Drafts a GitHub release with the changes introduced by a tagged version'
 author: 'dug007'
 
+outputs:
+  release-url:
+    description: 'The URL of the HitHub release that was drafted'
+
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'src/main.ts'
