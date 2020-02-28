@@ -4,8 +4,8 @@ author: 'dug007'
 
 outputs:
   release-url:
-    description: 'The URL of the HitHub release that was drafted'
+    description: 'The URL of the GitHub release that was drafted'
 
 runs:
   using: 'node12'
-  main: 'src/main.ts'
+  main: '__tests__/main.test.ts'
